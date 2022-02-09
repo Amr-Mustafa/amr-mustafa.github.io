@@ -2,9 +2,9 @@
 #
 # This is the configuration file for your blog, please change these items after forked.
 
-title: Your title
-email: your-email@example.com
-name: Your name
+title: Confused Bytes
+email: amr.mustafa.97@outlook.com
+name: Amr Mustafa
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here.
 keywords: [Your keywords]
