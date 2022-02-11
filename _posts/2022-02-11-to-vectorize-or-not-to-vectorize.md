@@ -1,5 +1,3 @@
-# To Vectorize or Not to Vectorize
-
 Exploiting the inherent <u>data parallelism</u> in your problem is essential to obtain a high performance software solution on modern processor architectures. This task is usually left to the compiler; nevertheless it is important to understand the limitations of compiler optimizations and its failure cases. However, in this short article, we will not address these failure cases. Instead, we will explore a specific case in which the compiler goes even further and optimizes away vector operations opting instead for a <u>single operation</u>.
 
 This specific case, as trivial as it is, illustrates a key point: you should not compete with your compiler, instead understand how it behaves, and quantitatively measure your software's performance. If you require more performance, only then look at the compiler's output and figure out why it is spitting out what you see. Anyway, let's get right into it.
